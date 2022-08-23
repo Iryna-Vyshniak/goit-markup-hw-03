@@ -414,8 +414,9 @@ margin-right: 30px;
 }
 */
 
-.project-card .description {
-  line-height: 1.9;
+
+.project-card .content{
+  padding: 20px 24px;
 }
 
 .project-card .title {
@@ -424,6 +425,11 @@ margin-right: 30px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
+.project-card .description {
+  line-height: 1.9;
+}
+
 
 /* FOOTER */
 
