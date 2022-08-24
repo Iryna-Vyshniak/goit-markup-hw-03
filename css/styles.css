@@ -335,6 +335,7 @@ li > .point:focus {
 
 .team-card > img {
   display: block;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
@@ -430,8 +431,14 @@ margin-right: 30px;
 }
 */
 
+.project-card img {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
 .project-card .content {
-  padding: 20px 24px;
+  margin: 0 24px 20px;
 }
 
 .project-card .title {
