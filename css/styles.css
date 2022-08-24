@@ -119,6 +119,7 @@ main.page-main {
 /* HEADER */
 
 .page-header {
+  min-height: 80px;
   border-bottom: 1px solid var(--border-whisper-white);
 }
 
