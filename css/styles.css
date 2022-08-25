@@ -163,7 +163,6 @@ main.page-main {
 }
 
 .page-footer-logo {
-  display: block;
   margin-bottom: 20px;
 
   color: var(--white-color);
@@ -279,9 +278,15 @@ li > .point:focus {
 }
 
 /* skills */
+
+.section.skills {
+  padding-bottom: 47px;
+}
+
 .section-skills {
   display: flex;
 }
+
 .section-skills > .item {
   width: 270px;
 
@@ -306,6 +311,10 @@ li > .point:focus {
 }
 
 /* about us */
+.section.about-us {
+  padding-top: 47px;
+}
+
 .section-about {
   display: flex;
 }
@@ -441,7 +450,7 @@ margin-right: 30px;
 }
 
 .project-card .content {
-  margin: 0 24px 20px;
+  padding: 24px 20px;
 }
 
 .project-card .title {
