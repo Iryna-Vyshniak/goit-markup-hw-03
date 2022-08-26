@@ -225,23 +225,22 @@ li > .point:focus {
 }
 
 .button {
-  padding: 10px 32px;
-  border: 1px solid transparent;
-  background-color: transparent;
+  /* border: 1px solid transparent;
+  background-color: transparent; */
   cursor: pointer;
 }
 
 .hero .button {
   /* display: block; */
   min-width: 216px;
-
+  padding: 10px 32px;
   background-color: var(--accent-dodger-blue);
   color: var(--white-color);
   font-size: var(--primary-font-size);
   font-weight: var(--primary-bold);
   line-height: 1.9;
-
   letter-spacing: 0.06em;
+  border-radius: 4px;
 }
 
 .hero .button:active,
@@ -249,7 +248,6 @@ li > .point:focus {
 .hero .button:focus {
   background-color: var(--hero-btn-active);
   box-shadow: var(--hero-btn-shadow);
-  border-radius: 4px;
 }
 
 /* SECTIONS */
@@ -465,6 +463,11 @@ margin-right: 30px;
 }
 
 /* FOOTER */
+
+.page-footer > .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .address {
   margin-top: 0;
