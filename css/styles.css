@@ -322,6 +322,10 @@ li > .point:focus {
 }
 
 /* TEAM */
+.member-team {
+  background-color: var(--bg-ghost-white);
+}
+
 .section-team-cards {
   display: flex;
 }
