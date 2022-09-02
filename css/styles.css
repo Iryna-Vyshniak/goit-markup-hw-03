@@ -86,10 +86,6 @@ body {
   flex: 1 1 auto;
 }
 
-/* :focus {
-  outline: 2px solid rgb(0, 0, 255);
-} */
-
 .list {
   margin: 0;
   padding: 0;
@@ -128,7 +124,7 @@ body {
   margin: -1px;
 }
 
-/* ================================================================================= */
+/* ================================================================================================================================================= */
 /* HEADER */
 
 .page-header {
@@ -188,7 +184,6 @@ body {
 
 .site-contacts {
   display: flex;
-  /* align-items: center; */
   margin-left: auto;
 }
 
@@ -225,54 +220,18 @@ body {
   color: var(--accent-dodger-blue);
 }
 
-/* .link-current::after {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-
-  content: '';
-  display: block;
-  width: 100%;
-  height: 4px;
-
-  background: var(--accent-dodger-blue);
-  border: none;
-  border-radius: 2px;
-
-  transform: scaleX(1);
-  transition: transform var(--timing-function);
-}
-
-.site-nav__link--current:hover::after {
-  transform: scaleX(0);
-} */
-
 .contact {
-  /* display: flex;
-  align-items: center; */
-
   color: var(--secondary-text-color);
 }
-
-/* .point {
-  transition: color var(--timing-function);
-} */
 
 .point:hover,
 .point:focus {
   color: var(--accent-dodger-blue);
 }
 
-/* .site-contacts__icon {
-  /* display: inline-block;
-  vertical-align: baseline; */
-/* margin-right: 10px;
-  fill: currentColor; 
-} */
-
-/* ===================================================================== */
+/* ================================================================================================================================================== */
 /* HERO */
-/* ===================================================================== */
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -283,12 +242,6 @@ body {
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
-
-  /* background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
 }
 
 .hero,
@@ -341,7 +294,7 @@ body {
   box-shadow: var(--hero-btn-shadow);
 }
 
-/* ===================================================================== */
+/* ================================================================================================================================================== */
 /* SECTIONS */
 
 .section-title {
@@ -415,7 +368,7 @@ body {
   font-size: var(--secondary-font-size);
 }
 
-/* ===================================================================================================================================*/
+/* =================================================================================================================================================*/
 /* BUSINESS */
 
 .business {
@@ -429,7 +382,7 @@ body {
   /* min-height: 294px; */
 }
 
-/* ===================================================================================================================================*/
+/* ==================================================================================================================================================*/
 /* MEMBER TEAM */
 
 .member-team {
@@ -440,7 +393,6 @@ body {
   max-width: 270px;
   /* min-height: 368px; */
   padding-bottom: 30px;
-  /* min-height: 428px; */
 
   background-color: var(--white-color);
   box-shadow: var(--team-box-shadow);
@@ -459,11 +411,7 @@ body {
   font-weight: var(--accent-weight);
 }
 
-/* .description-member {
-  margin-bottom: 16px;
-} */
-
-/* ================================================================================================================================== */
+/* ================================================================================================================================================= */
 /* FOOTER */
 
 .page-footer > .container {
@@ -494,7 +442,7 @@ body {
   color: var(--white-transparent-color);
 }
 
-/* ====================================================================================================================================== */
+/* ================================================================================================================================================= */
 /* PORTFOLIO PAGE */
 
 /* filter */
@@ -533,7 +481,7 @@ body {
   box-shadow: var(--active-shadow);
 }
 
-/* ===================================================================================================================================== */
+/* ================================================================================================================================================== */
 /* project-cards */
 .project-cards {
   display: flex;
@@ -599,8 +547,6 @@ margin-right: 30px;
 }
 
 .project-title {
-  /* when add margin-bottom appear thin string between project-cards__overlay & .project-cards__description
-  margin-bottom: 4px; */
   margin-top: 0;
   margin-bottom: 4px;
   font-weight: var(--primary-bold);
