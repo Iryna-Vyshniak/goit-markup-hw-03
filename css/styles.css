@@ -493,7 +493,7 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
 
-  border-bottom: 1px solid var(--border-whisper-grey);
+/*   border-bottom: 1px solid var(--border-whisper-grey); */
 
   /* may be better use code with codes in .project-cards__content, .project-cards__item, .thumb-overlay,  than content will be 322 x 70, but focus separated blocks in card */
   /* padding-bottom: 20px; */
