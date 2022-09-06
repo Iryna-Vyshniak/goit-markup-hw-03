@@ -543,7 +543,8 @@ margin-right: 30px;
   display: block;
   max-width: 100%;
   margin-top: 0;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  margin-bottom: 0;
 }
 
 .project-title {
@@ -556,6 +557,8 @@ margin-right: 30px;
 }
 
 .project-description {
+  margin-top: 0;
+  margin-bottom: 0;
   line-height: 1.9;
 }
 
@@ -563,6 +566,8 @@ margin-right: 30px;
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
+  padding-top: 20px;
+  border: 1px solid var(--border-whisper-grey);
   /* may be better use code with codes in .project-cards__content, .project-cards__item, .thumb-overlay,  than content will be 322 x 70, but focus separated blocks in card */
   /* max-width: 322px;
   min-height: 70px;
