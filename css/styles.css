@@ -124,8 +124,7 @@ body {
   margin: -1px;
 }
 
-/* ================================================================================================================================================= */
-/* HEADER */
+/* ============================================== HEADER ========================================================================== */
 
 .page-header {
   /* position: fixed;
@@ -229,17 +228,14 @@ body {
   color: var(--accent-dodger-blue);
 }
 
-/* ================================================================================================================================================== */
-/* HERO */
+/* =========================================== HERO ============================================================================ */
 
 .hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
   max-width: 1600px;
-  min-height: 600px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -267,7 +263,6 @@ body {
 }
 
 .button {
-  /* border: 1px solid transparent; */
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -294,8 +289,7 @@ body {
   box-shadow: var(--hero-btn-shadow);
 }
 
-/* ================================================================================================================================================== */
-/* SECTIONS */
+/* =================================================== SECTIONS ======================================================================== */
 
 .section-title {
   margin-top: 0;
@@ -321,8 +315,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* =================================================================================================================================================*/
-/* COMPANY ADVANTAGES */
+/* ============================================== COMPANY ADVANTAGES ======================================================*/
 
 .company-advantages {
   padding-bottom: 47px;
@@ -368,8 +361,7 @@ body {
   font-size: var(--secondary-font-size);
 }
 
-/* =================================================================================================================================================*/
-/* BUSINESS */
+/* ================================================  BUSINESS  ====================================================================*/
 
 .business {
   padding-top: 47px;
@@ -382,8 +374,7 @@ body {
   /* min-height: 294px; */
 }
 
-/* ==================================================================================================================================================*/
-/* MEMBER TEAM */
+/* ========================================= MEMBER TEAM ======================================================================*/
 
 .member-team {
   background-color: var(--bg-ghost-white);
@@ -391,8 +382,6 @@ body {
 
 .item-member {
   max-width: 270px;
-  /* min-height: 368px; */
-  padding-bottom: 30px;
 
   background-color: var(--white-color);
   box-shadow: var(--team-box-shadow);
@@ -403,7 +392,13 @@ body {
 
 .images-member {
   display: block;
-  margin-bottom: 30px;
+}
+
+.member-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .title-name {
@@ -411,8 +406,7 @@ body {
   font-weight: var(--accent-weight);
 }
 
-/* ================================================================================================================================================= */
-/* FOOTER */
+/* =========================================== FOOTER ============================================================================ */
 
 .page-footer > .container {
   display: flex;
@@ -442,8 +436,7 @@ body {
   color: var(--white-transparent-color);
 }
 
-/* ================================================================================================================================================= */
-/* PORTFOLIO PAGE */
+/* ===================================================== PORTFOLIO PAGE ======================================================================= */
 
 /* filter */
 
@@ -481,8 +474,8 @@ body {
   box-shadow: var(--active-shadow);
 }
 
-/* ================================================================================================================================================== */
-/* project-cards */
+/* ========================================= project-cards =============================================================== */
+
 .project-cards {
   display: flex;
   flex-wrap: wrap;
@@ -492,11 +485,6 @@ body {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-
-/*   border-bottom: 1px solid var(--border-whisper-grey); */
-
-  /* may be better use code with codes in .project-cards__content, .project-cards__item, .thumb-overlay,  than content will be 322 x 70, but focus separated blocks in card */
-  /* padding-bottom: 20px; */
 }
 
 .project-item:nth-child(3n) {
@@ -567,10 +555,8 @@ margin-right: 30px;
   padding-right: 24px;
   padding-bottom: 20px;
   padding-top: 20px;
-  border: 1px solid var(--border-whisper-grey);
-  /* may be better use code with codes in .project-cards__content, .project-cards__item, .thumb-overlay,  than content will be 322 x 70, but focus separated blocks in card */
-  /* max-width: 322px;
-  min-height: 70px;
-  margin-right: auto;
-  margin-left: auto; */
+
+  border-left: 1px solid var(--border-whisper-grey);
+  border-right: 1px solid var(--border-whisper-grey);
+  border-bottom: 1px solid var(--border-whisper-grey);
 }
